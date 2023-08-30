@@ -92,6 +92,7 @@ html {
         width: 90%;
         grid-template-columns: 1fr;
         height: auto;
+        margin: 20px;
     }
 
     .container .wrapper .text {
