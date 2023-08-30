@@ -1,0 +1,108 @@
+html {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--cream);
+}
+
+.container .wrapper {
+    width: 600px;
+    height: 450px;
+    background-color: #FFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container .wrapper img {
+    width: 100%;
+}
+
+.container .wrapper .text {
+    padding: 30px 40px 30px 35px;
+}
+
+.container .wrapper .text .perfume {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 10px;
+    color: var(--dark-grayish-blue);
+    font-weight: 500;
+}
+
+.container .wrapper .text h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 18px;
+}
+
+.container .wrapper .text .description {
+    color: var(--dark-grayish-blue);
+    font-size: 14px;
+    line-height: 25px;
+    margin: 20px 0;
+}
+
+.container .wrapper .text .price {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    margin-bottom: 30px;
+}
+
+.container .wrapper .text .price h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: var(--dark-cyan);
+    font-size: 25px;
+}
+
+.container .wrapper .text .price .desconto {
+    font-size: 10px;
+    color: var(--dark-grayish-blue);
+    text-decoration: line-through;
+}
+
+.container .wrapper a {
+    background-color: var(--dark-cyan);
+    width: 246px;
+    height: 48px;
+    margin-top: 32px;
+    padding: 12px 50px;
+    border-radius: 6px;
+}
+
+.container .wrapper .text img{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+@media(max-width: 375px) {
+    .container .wrapper {
+        width: 90%;
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .container .wrapper .text {
+        padding: 20px;
+    }
+
+   
+
+    .container .wrapper a {
+        width: 100%;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+}
