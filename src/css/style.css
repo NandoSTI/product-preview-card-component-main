@@ -78,6 +78,11 @@ html {
     margin-top: 32px;
     padding: 12px 50px;
     border-radius: 6px;
+    transition: .3s ease-in-out;
+}
+
+.container .wrapper a:hover {
+    background-color:  hsl(158, 62%, 16%);
 }
 
 .container .wrapper .text img{
