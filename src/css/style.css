@@ -92,7 +92,7 @@ html {
     margin-right: 10px;
 }
 
-@media(max-width: 375px) {
+@media(max-width: 450px) {
     .container .wrapper {
         width: 90%;
         grid-template-columns: 1fr;
